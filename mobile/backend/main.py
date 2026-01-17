@@ -63,3 +63,4 @@ def update_person(person_id: int, person: PersonCreate, db: Session = Depends(ge
     return db_person
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    .
